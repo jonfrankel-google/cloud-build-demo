@@ -11,7 +11,7 @@
     args:
     - 'run'
     - 'deploy'
-    - 'cloud-run-demo'
+    - 'run-example-builddeploy'
     - '--image'
     - 'gcr.io/$PROJECT_ID/cloud-run-demo:$COMMIT_SHA'
     - '--region'
